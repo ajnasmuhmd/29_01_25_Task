@@ -1,1 +1,111 @@
 
+
+header {
+    background: linear-gradient(to right, #003366, #0099cc); 
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+    transition: background 0.3s; 
+}
+
+nav a:hover,
+nav a.active {
+    background-color: #0099cc;
+}
+
+.hero {
+    background: url('hero.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    background-color: rgb(0, 51, 102); 
+
+.skills-list li {
+    margin: 8px 0;
+    list-style-type: square;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid #666;
+    padding: 10px;
+}
+
+figure {
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+}
+
+figure img {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #999;
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #006699;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 4px solid #0099cc;
+    margin: 10px 0;
+    padding-left: 10px;
+    background-color: #f0f8ff;
+}
+
+footer {
+    font-size: 0.9em;
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    margin-top: 40px;
+}
+
