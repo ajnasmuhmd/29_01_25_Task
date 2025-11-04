@@ -1,42 +1,24 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Exam for Ajnas Muhammed </title>
-
     <meta name="author" content="Ajnas Muhammed">
-    <meta name="description" content="This is just an example page for exam">
-
+    <meta name="description" content="Portfolio webpage for Ajnas Muhammed for exam.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Portfolio - Ajnas Muhammed</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #f5f5f5;
-            color: #333;
-        }
-
-        h1, h2 {
-            color: #003366; 
-        }
-
-        p {
-            line-height: 1.6;
-        }
+        h1, h2, h3 { color: #188aed; font-family: Arial, sans-serif;}
+        p { font-size: 1.05em; line-height: 1.7;}
+        q { color: #0288d1; font-weight: bold;}
     </style>
-
-  
-    <link rel="stylesheet" href="html_css_exam_yourname/css/style.css">
 </head>
 <body>
- 
-    <header>
-        <h1>AJNAS MUHAMMED</h1>
-        <p>Bachelor of Information System</p>
+    <header style="background: #e3f2fd; padding: 2em 0 1em 0; text-align: center;">
+        <h1 style="font-size: 2.4em; margin: 0;">Ajnas Muhammed</h1>
+        <div style="font-size: 1.15em;">Internet and Web Basics | Exam Project</div>
+        <div style="font-weight: 550; color: #0288d1; margin-top: 6px;">RNU, Riga</div>
     </header>
-
     <nav>
         <ul>
             <li><a href="#" class="active">Home</a></li>
@@ -45,124 +27,107 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-
     <section class="hero">
-        <h2>Welcome to My web Page Created for exam </h2>
-        <p>Page developed by Ajnas Muhammed .</p>
+        <div>
+            Welcome to My Web Journey!
+            <p style="font-size: 0.55em; margin-top: 0.5em;">Crafting digital experiences with curiosity & creativity.</p>
+        </div>
     </section>
-
-    <section id="about">
+    <section id="about" class="about" style="margin: 2em auto; max-width:650px;">
         <h2>About Me</h2>
         <p>
-            I’m a <strong>computer science</strong> student passionate about 
-            <em>web development</em> and <em>user experience design</em>.
-        </p>
+            Hi, I'm <strong>Ajnas Muhammed</strong>, a <em>web development</em> student at RNU. Currently studying in HTML, CSS, and JavaScript,
     </section>
-
-    <section id="skills">
+    <section id="skills" class="skills" style="max-width:600px; margin:1.5em auto;">
         <h2>My Skills</h2>
-        <ul class="skills-list">
-            <li>HTML & CSS</li>
-            <li>JavaScript</li>
-            <li>Python Programming</li>
+        <ul>
+            <li>HTML & Semantic Markup</li>
+            <li>CSS Styling</li>
+            <li>JavaScript Basics</li>
+            <li>Responsive Web Design</li>
+            <li>UI/UX Principles</li>
         </ul>
     </section>
-
-    <section id="certifications">
-        <h2>Certifications & Achievements</h2>
+    <section class="certifications" style="max-width:700px; margin:2em auto;">
+        <h2>Certifications</h2>
         <table>
-            <caption>Professional Certifications</caption>
+            <caption>My Professional Achievements</caption>
             <colgroup>
-                <col span="1" style="background-color:#e0f7fa;">
-                <col span="1" style="background-color:#f1f8e9;">
-                <col span="1" style="background-color:#fff3e0;">
+                <col style="background:#e3f2fd;">
+                <col span="2" style="background:#fafafe;">
             </colgroup>
             <thead>
                 <tr>
-                    <th>Certification</th>
-                    <th>Institution</th>
+                    <th>Certificate</th>
+                    <th>Issued By</th>
                     <th>Year</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Web Development Bootcamp</td>
-                    <td rowspan="2">Udemy</td>
+                    <td>Responsive Web Design</td>
+                    <td>freeCodeCamp</td>
+                    <td class="highlight">2025</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">JavaScript Algorithms, Data Structures</td>
+                    <td>freeCodeCamp</td>
                     <td>2025</td>
                 </tr>
                 <tr>
-                    <td>Python for Beginners</td>
+                    <td>Coursera</td>
                     <td>2025</td>
-                </tr>
-                <tr>
-                    <td colspan="3" style="text-align:center;">Additional Awards and Recognitions</td>
                 </tr>
             </tbody>
         </table>
     </section>
-
-   
-    <section id="portfolio">
-        <h2>Portfolio</h2>
-        <figure>
-            <img src="project1.jpg" alt="Screenshot of Project 1">
-            <figcaption>Project 1 – Personal Portfolio</figcaption>
-        </figure>
+    <section class="portfolio" style="margin-top:2em;">
+        <div class="project">
+            <img src="project1.jpg" alt="Screenshot of student web portfolio project" />
+            <div>Personal Portfolio Website</div>
+        </div>
+        <div class="project">
+            <img src="project2.jpg" alt="Screenshot of responsive business landing page" />
+            <div>Responsive Business Landing Page</div>
+        </div>
     </section>
-
-    <!-- Task 10: External Links -->
-    <section id="resources">
-        <h2>Useful Resources</h2>
-        <ul>
-            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML Documentation</a></li>
-            <li><a href="https://www.w3schools.com/css/" target="_blank">CSS Tutorials</a></li>
-        </ul>
-    </section>
-
-    <!-- Task 11: Contact Form -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form>
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name"><br><br>
-
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br><br>
-
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message"></textarea><br><br>
-
+    <div class="resources" style="text-align:center; margin:2em auto;">
+        <a href="https://www.w3schools.com/" target="_blank" rel="noopener">W3Schools</a>
+        <a href="https://developer.mozilla.org/en-US/docs/Web" target="_blank" rel="noopener">MDN Docs</a>
+        <a href="https://freecodecamp.org/" target="_blank" rel="noopener">freeCodeCamp</a>
+    </div>
+    <section id="contact" style="max-width:600px; margin:2.5em auto;">
+        <h2>Contact Form</h2>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Name" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <textarea name="message" placeholder="Message" rows="3" required></textarea>
             <button type="submit">Submit</button>
         </form>
     </section>
-
-
-    <footer>
-        <p>© 2025 Ajnas Muhammed | ajnasmuhammed@gmail.com</p>
-    </footer>
-
-
-    <p style="color: red; font-weight: bold;">
-        This is jjust an example
-    </p>
-
-    <section id="quotes">
-        <h2>Inspirational Quotes</h2>
+    <section style="max-width:750px; margin:2.5em auto;">
         <blockquote cite="https://www.brainyquote.com/quotes/steve_jobs_416859">
-            “Innovation distinguishes between a leader and a follower.”
+            "Design is not just what it looks like and feels like. Design is how it works."
+            <footer>- Steve Jobs</footer>
         </blockquote>
-        <p>As my mentor always says, <q>never stop learning</q>.</p>
+        Here’s an inline quote: <q>Creativity is intelligence having fun.</q>
     </section>
-
-    <!-- Multiple Choice -->
+    <footer>
+        &copy; Ajnas Muhammed · ajnasmuhmd@gmail.com · All rights reserved.
+    </footer>
     <!--
-    1: Which tag defines the largest heading in HTML?
-        A) <h1>  B) <heading>  C) <head>
-        Answer: <h1>
-
-    2: Which CSS property changes text color?
-        A) background  B) font  C) color
-        Answer: color
+    1. Which HTML tag is used to define the largest heading?
+        a) <h6>
+        b) <h1>     (Answer)
+        c) <p>
+    2. What property is used to change the text color in CSS?
+        a) color     (Answer)
+        b) background-color
+        c) font-color
+    3. Which attribute opens a link in a new tab?
+        a) target="_blank"     (Answer)
+        b) new-tab="yes"
+        c) blank="on"
     -->
 </body>
 </html>
